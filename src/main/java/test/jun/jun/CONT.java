@@ -12,4 +12,9 @@ public class CONT {
     public String jjj(){
         return "jun";
     }
+
+    @GetMapping("/jup")
+    public String jtest(){
+        return "version upgrade jun";
+    }
 }
